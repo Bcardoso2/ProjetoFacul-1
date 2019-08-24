@@ -2,10 +2,10 @@
 body{
     margin: 0;
     padding: 0;
-    height:912px;
-    width: 1000px;  
-    background-color: grey;
-    background-image: linear-gradient(grey, rgb(255,20,147), rgb(0,128,128));
+    height:500px;
+    width: 500px;  
+    background-color: #ffffff;
+    background-image: #ffffff;
 }
 
 #logo h1{
@@ -13,7 +13,7 @@ body{
     text-align: justify; 
     font-family: Segoe UI;
     margin: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: -300px;
     height: 100px;
     width: 1400px;
@@ -23,9 +23,9 @@ body{
 
 /* Estilo da div Login*/
 #login{
-    height: 100px; /*Altura*/
+    height: 75px; /*Altura*/
     width: 600px;   /*Largura*/
-    margin-left: 1300px;
+    margin-left: 900px;
     margin-top: -121px; 
     font-family: Segoe UI;
     background-color: #ffffff;
@@ -44,6 +44,28 @@ body{
     -moz-border-radius: 8px;
 }
 
+
+.botaoLogin{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+/*FORMATAÇÂO DO CADASTRO*/
+
+#cadastro{
+    height: 580px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 500px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    font-family: Segoe UI;
+    border-style: solid;
+    border-color:#070707;
+    border-width: 2px;
+}
+
 .camposCad{
     height: 30px;
     width: 400px;
@@ -53,39 +75,15 @@ body{
     -moz-border-radius: 8px;
 }
 
-.botaoLogin{
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-}
-
-.botaoCad{
-    height:40px;
-    width: 100px;
-    margin-top: 8px;
-    margin-left: 190px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-}
-
-
-/*FORMATAÇÂO DO CADASTRO*/
-
-#cadastro{
-    height: 580px;
-    width: 500px;
-    margin-top: 50px;
-    margin-left: 700px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    font-family: Segoe UI;
-    border-style: solid;
-    border-color:#070707;
-    border-width: 2px;
-}
-
 #cadastro h1{
     text-align: center;
     color: grey; 
+}
+
+.botaoCad{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    text-align: center;
+    margin-left: 200px;
 }
